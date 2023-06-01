@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000;
+    color: #000;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+h1{
+    text-shadow: 5px 5px 5px #fff;
+    text-align: center;
+}
+#inp{
+    margin: 20px;
+}
+button{
+    padding: 15px 22px 15px 22px;
+    border-radius: 32px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 18px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+}

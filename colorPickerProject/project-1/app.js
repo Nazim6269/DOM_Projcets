@@ -1,0 +1,14 @@
+let btn = document.querySelector("button");
+btn.addEventListener("click",myFunction);
+
+function myFunction () {
+  let  bgcolor = generateRGBColor();
+  document.querySelector("body").style.backgroundColor = bgcolor;
+}
+
+function generateRGBColor(){
+    const red = Math.floor(Math.random() * 255);
+    const green = Math.floor(Math.random() * 255);
+    const blue = Math.floor(Math.random() * 255);
+    return `rgb(${red},${green},${blue})`
+} 

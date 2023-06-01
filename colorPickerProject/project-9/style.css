@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding: 10rem 40rem;
+    background-color: orchid;
+}
+
+
+.container{
+    height: 450px;
+    width: 480px;
+    background-color: #fff;
+    box-shadow: 1rem 1rem 0rem 1rem #fff;
+    padding: 4rem .5rem 0rem 2rem;
+}
+
+
+.header-label, .body-label{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-label{
+    margin-bottom: 1rem;
+}
+
+
+.color-display{
+    background-color: aquamarine;
+    padding: 3rem;
+}
+
+
+.change-copy-color-label{
+    display: flex;
+    justify-content: space-between;
+    margin:2rem  0 .5rem 0;
+}
+
+#header-heading, #body-heading, #select-label{
+    letter-spacing: .03rem;
+    font-weight:bold;
+}
+
+
+#header-btn, #body-btn{
+    border: transparent;
+    letter-spacing: .03rem;
+    font-weight:bold;
+    color: orange;
+    background-color: #fff;
+    font-size: 0.89rem;
+}
+
+
+.select-copy-mode{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0 1rem 0;
+}
+
+
+.hex-rgb{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.hex-div, .rgb-div{
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+
+
+.adjust-footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: .4rem;
+}
+
+
+.slider-heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+span {
+    font-weight: bold;
+}
